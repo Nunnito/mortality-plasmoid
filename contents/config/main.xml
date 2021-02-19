@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name="mortalityrc"/>
+
+    <group name="General">
+        <entry name="bold" type="Bool">
+            <default>true</default>
+        </entry>
+
+        <entry name="fontSize" type="Int">
+            <default>48</default>
+        </entry>
+
+        <entry name="decimalFontSize" type="Int">
+            <default>24</default>
+        </entry>
+      
+        <entry name="fontColor" type="Color">
+            <default>#282A36</default>
+        </entry>
+
+        <entry name="decimalFontColor" type="String">
+            <default>#282A36</default>
+        </entry>
+
+        <entry name="fontFamily" type="String">
+            <default>Monospace</default>
+        </entry>
+    </group>
+
+
+    <group name="Birthdate">
+        <entry name="year" type="Int">
+          <default>1856</default>
+        </entry>
+
+        <entry name="month" type="Int">
+          <default>7</default>
+        </entry>
+
+        <entry name="day" type="Int">
+          <default>10</default>
+        </entry>
+    </group>
+
+    <group name="Positions">
+        <entry name="xPos" type="Int">
+          <default>0</default>
+        </entry>
+
+        <entry name="yPos" type="Int">
+          <default>0</default>
+        </entry>
+
+        <entry name="decimalXPos" type="Int">
+          <default>0</default>
+        </entry>
+
+        <entry name="decimalYPos" type="Int">
+          <default>0</default>
+        </entry>
+    </group>
+</kcfg>

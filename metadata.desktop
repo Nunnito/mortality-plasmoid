@@ -1,0 +1,15 @@
+[Desktop Entry]
+Name=Mortality
+Comment=Show your decimal age
+Encoding=UTF-8
+Icon=applications-rss
+ServiceTypes=Plasma/Applet
+Type=Service
+Icon=org.kde.plasma.caffeine-plus
+X-KDE-PluginInfo-Author=Nunnito Nevermind
+X-KDE-PluginInfo-Email=nunnito@tutanota.com
+X-KDE-PluginInfo-Name=mortality
+X-KDE-PluginInfo-License=MIT
+X-KDE-PluginInfo-Version=1.0
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
